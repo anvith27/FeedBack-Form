@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="feedback-form">
+    <h1>FeedBack Form for Internship In Abhyaz</h1>
+    <form action="thankyou.html">
+    <div class="section">
+        <label for="fname">First Name:</label>
+        <input type="text" id="name" value=""><br>
+    </div>
+   
+    <div class="section">
+        <label for="internID">Intern ID:</label>
+        <input type="text" id="internID"><br>
+    </div>
+    
+    <div class="section">
+    <label for="Rating">Overall Rate your internship in Abhyaz:</label><br>
+    <input type="radio" id="rating1" name="rating" value="1">
+    <label for="rating1">1(Bad)</label>
+    <input type="radio" id="rating2" name="rating" value="2">
+    <label for="rating2">2</label>
+    <input type="radio" id="rating3" name="rating" value="3">
+    <label for="rating3">3</label>
+    <input type="radio" id="rating4" name="rating" value="4">
+    <label for="rating4">4</label>
+    <input type="radio" id="rating5" name="rating" value="5">
+    <label for="rating5">5(Very Good)</label><br>
+    <div class="section"></div>
+    <label for="experience">Describe breif about how was your experience based on your rating:</label>
+    <textarea name="experience" id="experience" cols="30" rows="4"></textarea><br>
+    <div class="section"></div>
+    <label for="challenging">What is the most challenging task you faced in your internship:</label>
+    <textarea name="challenging" id="" cols="30" rows="4"></textarea><br>
+    <div class="section"></div>
+    <label for="skills">What additional technical skills did you gain the internship:</label>
+    <textarea name="technical-skills" id="technical" cols="30" rows="4"></textarea><br>
+    </div>
+    <div class="section">
+        <label for="soft-skills">What additional soft skills you learnt in the internship:</label>
+        <textarea name="soft-skills" id="soft-skills
+        " cols="30" rows="4"></textarea><br>
+    </div>
+    <button type="submit" class="submit-button">Submit</button>
+    </div>
+ </form>   
+</body>
+</html>
